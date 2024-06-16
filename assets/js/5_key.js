@@ -1,4 +1,4 @@
-let ele1 = document.getElementById('key')
+let ele1 = document.getElementById('key');
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'a') {
@@ -15,21 +15,21 @@ document.addEventListener('keydown', function (event) {
             var newDiv = document.createElement('div');
             newDiv.style.width ='200px';
             newDiv.style.height ='200px';
-            newDiv.style.backgroundColor ='#4A2364'
-            document.body.appendChild(newDiv)
+            newDiv.style.backgroundColor ='#4A2364';
+            document.body.appendChild(newDiv);
     }else if (event.key === 'w') {
         /* ACrear nuevo div mismas dimensiones gris */
         var newDiv = document.createElement('div');
         newDiv.style.width ='200px';
         newDiv.style.height ='200px';
-        newDiv.style.backgroundColor ='#808080'
-        document.body.appendChild(newDiv)
+        newDiv.style.backgroundColor ='#808080';
+        document.body.appendChild(newDiv);
     }else if (event.key === 'e') {
         /* ACrear nuevo div mismas dimensiones cafe */
         var newDiv = document.createElement('div');
         newDiv.style.width ='200px';
         newDiv.style.height ='200px';
-        newDiv.style.backgroundColor ='#804000'
-        document.body.appendChild(newDiv)
+        newDiv.style.backgroundColor ='#804000';
+        document.body.appendChild(newDiv);
     }
 })
